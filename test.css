@@ -26,7 +26,7 @@
   width: 80%;
   height: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
@@ -97,4 +97,71 @@
   border: none;
   color: white;
   background-color: orchid;
+}
+.para {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 30%;
+  justify-content: center;
+  align-items: center;
+  color: orchid;
+  font-size: larger;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 30%;
+  padding: 4px;
+  color: white;
+  display: flex;
+  background-color: orchid;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 10%;
+  margin-left: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.myh2 {
+  color: orchid;
+  outline-color: black;
+
+  justify-content: center;
+  margin-top: 10%;
+  align-items: center;
+  margin-left: 30%;
+}
+.myh21 {
+  margin-left: 30%;
+  margin-top: 5%;
+  color: orchid;
+  justify-content: center;
+  align-items: center;
+}
+
+.othersdiv {
+  width: 60%;
+  height: 40%;
+}
+
+.p1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+
+  margin-left: 30%;
+  margin-top: 10%;
 }
